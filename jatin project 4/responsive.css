@@ -1,0 +1,434 @@
+@media(max-width : 952px){
+
+    /* ------------------------- header start --------------------- */
+
+    .header-logo{
+        font-size:30px;
+        padding-left: 50px;
+    }
+
+    .header-list li a{
+        font-size: 15px;
+    }
+
+
+
+    /* ------------------------- section 1 starts --------------------- */
+
+
+    .block-11{
+        width:100%;
+    }
+
+
+    
+    /* ------------------------- section 2 starts --------------------- */
+
+    /* ------------------------- section 3 starts --------------------- */
+
+    .section-3{
+        height: 100vh;
+    }
+    
+
+    .image-31{
+        height: 40vh;
+    }
+
+    .textblock-31{
+        margin-top: 20px;
+
+        height:34vh;
+    }
+
+
+    .textblock-32{
+        height:30vh;
+    }
+
+    /* ------------------------ section 4 starts ----------------------- */
+
+    .section-4 {
+        padding:20px 60px;
+    }
+
+    .section-4 div{
+        padding:10px;
+    }
+
+    /* ----------------------- section 5 starts ------------------------ */
+
+    .section-5{
+        padding:0;
+    }
+
+    .section-5 img{
+        width : 100px;
+    }
+
+    /* ----------------------- section 6 starts ------------------------ */
+
+    .block-61{
+        width:100%;
+    }
+
+    /* ----------------------- footer starts ------------------------ */
+
+    .footer-image{
+        padding-left: 0px;
+    }
+
+    .footer-image img{
+        margin-left: 100px;
+    }
+
+    .footer-list{
+      
+
+        width:60%;
+
+        padding-top: 65px;
+        padding-left: 50px;
+    }
+
+
+    .footer-list ul li{
+        margin: 10px;
+
+        padding:0;
+
+        font-size: 13px;
+
+        width: 100px;
+    }
+
+    .footer-dots{
+        width:25%;
+
+        padding-left: 10px;
+    }
+
+}
+
+
+
+@media(max-width: 650px){
+
+    .main{
+        height: 676vh;
+    }
+
+    /* ------------------------- header start --------------------- */
+
+    .checkbtn{
+        display:block;
+    }
+
+    .header-list{
+        position: fixed;
+        width:100%;
+        height: 28vh;
+        background: #2c3e50;
+        text-align: center;
+        transition:all 0.5s;
+        top:63px;
+        left:-100%;
+    }
+
+    .header-list li{
+        display: block;
+    }
+
+    .header-list li a:hover{
+        background: none;
+        color:#3e8566;
+        transition: 0.4s;
+    }
+
+    #check:checked ~ .header-list{
+        left:0;
+    }
+
+    /* ------------------------- section 1 starts --------------------- */
+
+    .section-1{
+        height: 95vh;
+
+       
+    }
+
+    .block-11{
+        height: 65vh;
+    }
+
+    .block-11 h1{
+        padding:30px;
+    }
+   
+    .block-11 p{
+        width:85%;
+    }
+
+  
+
+
+    /* ------------------------- section 2 starts --------------------- */
+
+    .section-2{
+        height:120vh;
+    }
+
+    .block-21{
+        height:29vh;
+
+        margin-bottom: 10px;
+    }
+
+    .block-21 h2{
+        padding: 15px 80px 10px 80px;
+    }
+
+    .block-21 p{
+        padding: 4px 40px;
+        line-height: 25px;
+    }
+
+    .image-21{
+        width:80%;
+
+        position: relative;
+        left:0px;
+        padding: 10px;
+        margin:0 auto;
+
+        display: flex;
+        align-items: center;
+
+    }
+
+    .image-21 img{
+        width:80%;
+        margin:0 auto;
+    }
+
+    .text-2{
+        text-align: center;
+        width:100%;
+
+        padding-top:10px;
+    }
+
+    .textblock-21{
+        padding:0; 
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textblock-21 p{
+        padding:0px 100px 20px 100px;
+    }
+
+    .textblock-22{
+        padding:0; 
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textblock-22 p{
+        padding:0px 100px 20px 100px;
+    }
+
+    .textblock-23{
+        padding:0 ;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textblock-23 p{
+        padding:0px 100px 20px 100px;
+    }
+
+    .textblock-21 h3{
+        font-size: 26px;
+    }
+
+    .textblock-22 h3{
+        font-size: 26px;
+    }
+
+    .textblock-23 h3{
+        font-size: 26px;
+    }
+
+    /* ------------------------- section 3 starts --------------------- */
+    .section-3{
+        height: 100vh;
+    }
+    
+
+    .textblock-31{
+        margin-top: 20px;
+
+        height:34vh;
+    }
+
+    .textblock-31 h2{
+        width:75%;
+    }
+
+    .textblock-31 p{
+        width: 72%;
+    }
+
+    .image-31{
+        height: 40vh;
+    }
+
+    .image-31 img{
+        width:95%;
+    }
+
+    .textblock-32{
+        height:20vh;
+    }
+
+    .textblock-32 h2{
+        width:75%;
+    }
+
+    .textblock-32 p{
+        width: 72%;
+    }
+
+    /* ------------------------ section 4 starts ----------------------- */
+
+
+    .section-4 {
+        flex-wrap: wrap;
+
+        height:100vh;
+    }
+
+    .section-4 div {
+        padding-left:50px;
+        padding-right: 50px;
+    }
+
+    /* --------------------- section 5 starts -------------------------- */
+
+    .section-5{
+        height: 110vh;
+
+        flex-direction: column;
+
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .section-5 img{
+        width:50%;
+        padding: 25px 50px;
+    }
+
+    /* -------------------- section 6 starts -------------------------- */
+
+    .section-6{
+        height: 60vh;
+
+    }
+
+    .block-61{
+        height: 65vh;
+    }
+
+    .block-61 h1{
+        padding: 20px 40px;
+    }
+   
+    .block-61 p{
+        width:85%;
+    }
+
+    .btn{
+        margin: 20px 50px 10px 50px;
+        width:100%;
+    }
+
+    /* ------------------------- footer starts ---------------------------- */
+
+    .footer{
+
+        height: 86vh;
+
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .footer-image{
+        padding: 0;
+        margin:0;
+
+        height: 150px;
+
+        width:100%;
+
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-image img{
+       padding:0px 0px;
+       margin:0;
+
+    }
+
+    .footer-list{
+
+        padding:0;
+        margin:0;
+
+        height: 35vh;
+
+        width:100%;
+
+        text-align: center;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-list ul li{
+        width:100%;
+
+        padding: 15px 100px;
+    }
+
+    .footer-dots{
+        margin-top:30px;
+
+        padding:90px  50%;
+
+        height: 10vh;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-dots img{
+        padding:20px;
+
+        flex:auto;
+    }
+
+
+
+
+}
